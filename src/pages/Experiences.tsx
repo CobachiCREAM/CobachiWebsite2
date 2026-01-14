@@ -52,9 +52,9 @@ export default function Experiences() {
       title: "Errybody Get ya Roll on",
       icon: PartyPopper,
       description: "Join our signature ice cream making class where everyone gets hands-on experience creating their own delicious rolled ice cream. Perfect for groups, friends, and anyone who loves a fun culinary adventure!",
-      duration: "2 hours",
+      duration: "45 mins",
       participants: "4-12 people",
-      price: "$35/person",
+      price: "$60/person",
       highlights: [
         "Create 2-3 custom ice cream rolls",
         "Learn professional rolling techniques",
@@ -64,17 +64,33 @@ export default function Experiences() {
       gradient: "from-[#FAC107] to-orange-400"
     },
     {
+      id: 'stem_n_cream',
+      title: "STEM n CREAM",
+      icon: Award,
+      description: "An educational ice cream adventure where math meets fun! Kids learn about measurements, fractions, ratios, and temperature while creating delicious rolled ice cream treats. A perfect blend of mathematical concepts with a dash of science exploration. Ideal for schools, camps, and curious minds!",
+      duration: "1.5 hours",
+      participants: "8-20 kids",
+      price: "$75/person",
+      highlights: [
+        "Hands-on math learning with measurements & ratios",
+        "Practice fractions and temperature concepts",
+        "Understanding proportions through recipes",
+        "Perfect for ages 6-14"
+      ],
+      gradient: "from-blue-500 to-green-400"
+    },
+    {
       id: 'roll_n_sip',
       title: "Roll n Sip (21+)",
       icon: Wine,
-      description: "An adults-only experience combining the art of rolled ice cream with craft cocktails. Learn to create boozy ice cream creations while enjoying specialty drinks in a sophisticated, fun atmosphere.",
-      duration: "2.5 hours",
+      description: "An adults-only BYOB experience combining the art of rolled ice cream with your favorite beverages. Learn to create boozy ice cream creations while enjoying complimentary charcuterie in a sophisticated, fun atmosphere.",
+      duration: "1 hour",
       participants: "6-15 people",
-      price: "$50/person",
+      price: "$80/person",
       highlights: [
+        "BYOB - Bring your favorite beverages",
+        "Complimentary charcuterie board",
         "Alcohol-infused ice cream creations",
-        "Complimentary craft cocktail",
-        "Premium ingredients & toppings",
         "Must be 21+ with valid ID"
       ],
       gradient: "from-purple-500 to-pink-500"
@@ -249,7 +265,7 @@ export default function Experiences() {
       description: "Perfect for parties, team building, or friend gatherings",
       duration: "2 hours",
       participants: "4-12 people",
-      price: "Starting at $35/person"
+      price: "Starting at $50/person"
     },
     {
       icon: Gift,
@@ -257,7 +273,7 @@ export default function Experiences() {
       description: "One-on-one or small group personalized instruction",
       duration: "1.5 hours",
       participants: "1-4 people",
-      price: "Starting at $50/person"
+      price: "Starting at $85/person"
     },
     {
       icon: Sparkles,
@@ -265,7 +281,7 @@ export default function Experiences() {
       description: "Fun, educational ice cream making party experience",
       duration: "2 hours",
       participants: "Up to 15 kids",
-      price: "Starting at $300"
+      price: "Starting at $500"
     },
     {
       icon: Award,
@@ -280,7 +296,7 @@ export default function Experiences() {
   const benefits = [
     "Learn the science behind rolled ice cream",
     "Hands-on experience with professional equipment",
-    "Create your own custom flavor combinations",
+    "Create your own custom flava combinations",
     "All ingredients and supplies included",
     "Take home recipes and techniques",
     "Fun for all ages and skill levels"
@@ -309,7 +325,7 @@ export default function Experiences() {
     },
     {
       question: "How many ice cream rolls will I make?",
-      answer: "In most classes, you'll create 2-3 ice cream rolls with different flavor combinations. You'll have access to a variety of premium toppings and ingredients to customize each creation."
+      answer: "In most classes, you'll create 2-3 ice cream rolls with different flava combinations. You'll have access to a variety of premium toppings and ingredients to customize each creation."
     },
     {
       question: "Do you accommodate dietary restrictions?",
@@ -341,7 +357,7 @@ export default function Experiences() {
             <div className="flex flex-wrap justify-center gap-6 text-lg">
               <div className="flex items-center gap-2 bg-white/20 backdrop-blur-sm rounded-full px-6 py-3">
                 <Clock className="w-5 h-5" />
-                <span className="font-semibold">1.5-3 Hours</span>
+                <span className="font-semibold">45 mins to 2 hours</span>
               </div>
               <div className="flex items-center gap-2 bg-white/20 backdrop-blur-sm rounded-full px-6 py-3">
                 <Users className="w-5 h-5" />
@@ -377,7 +393,7 @@ export default function Experiences() {
             Choose from our signature classes and book your spot today
           </p>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-20">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-20">
             {featuredExperiences.map((experience) => (
               <div key={experience.id} className="bg-white rounded-3xl shadow-2xl overflow-hidden hover:shadow-3xl transition-all">
                 <div className={`bg-gradient-to-br ${experience.gradient} p-8 text-white`}>

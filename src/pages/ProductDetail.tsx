@@ -197,7 +197,7 @@ export default function ProductDetail() {
             ) : (
               <div className="bg-gray-100 rounded-xl p-6 text-center">
                 <p className="text-xl font-bold text-gray-600 mb-2">Currently Unavailable</p>
-                <p className="text-gray-500 mb-4">This flavor will be back soon!</p>
+                <p className="text-gray-500 mb-4">This flava will be back soon!</p>
                 <button className="bg-black text-white px-6 py-3 rounded-full font-bold hover:bg-gray-900 transition-colors">
                   Email Me When Available
                 </button>

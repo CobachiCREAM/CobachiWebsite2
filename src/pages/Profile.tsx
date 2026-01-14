@@ -293,7 +293,7 @@ export default function Profile() {
                   className="w-5 h-5 rounded border-gray-300 text-[#FAC107] focus:ring-[#FAC107]"
                 />
                 <span className="text-gray-700">
-                  Send me updates about new flavors, special offers, and events
+                  Send me updates about new flavas, special offers, and events
                 </span>
               </label>
             </div>

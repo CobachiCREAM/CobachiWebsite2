@@ -63,7 +63,7 @@ export default function FlavorSuggestionForm() {
                 <div className="relative rounded-3xl overflow-hidden shadow-2xl h-[400px]">
                   <img
                     src="https://images.pexels.com/photos/1343504/pexels-photo-1343504.jpeg?auto=compress&cs=tinysrgb&w=1200"
-                    alt="Delicious rolled ice cream"
+                    alt="Delicious ice cream"
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-60"></div>
@@ -72,7 +72,7 @@ export default function FlavorSuggestionForm() {
                       Your Idea Could Be Our Next Hit Flava!
                     </h3>
                     <p className="text-white text-sm md:text-base">
-                      We love creating flavors inspired by our community. Share your unique ideas and you might see them on our menu!
+                      We love creating flavas inspired by our community. Share your unique ideas and you might see them on our menu!
                     </p>
                   </div>
                 </div>
@@ -87,7 +87,7 @@ export default function FlavorSuggestionForm() {
                   </div>
                   <div>
                     <h2 className="text-3xl font-bold">Suggest a Flava</h2>
-                    <p className="text-gray-600 text-sm">Got a flavor idea? Share it with us!</p>
+                    <p className="text-gray-600 text-sm">Got a flava idea? Share it with us!</p>
                   </div>
                 </div>
 
@@ -138,7 +138,7 @@ export default function FlavorSuggestionForm() {
 
                   <div>
                     <label htmlFor="flavor_name" className="block text-sm font-bold text-gray-700 mb-2">
-                      Flavor Name *
+                      Flava Name *
                     </label>
                     <input
                       type="text"
@@ -148,13 +148,13 @@ export default function FlavorSuggestionForm() {
                       onChange={handleChange}
                       required
                       className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-[#FAC107] focus:outline-none transition-colors"
-                      placeholder="Give your flavor a catchy name"
+                      placeholder="Give your flava a catchy name"
                     />
                   </div>
 
                   <div>
                     <label htmlFor="description" className="block text-sm font-bold text-gray-700 mb-2">
-                      Flavor Description *
+                      Flava Description *
                     </label>
                     <textarea
                       id="description"
@@ -164,7 +164,7 @@ export default function FlavorSuggestionForm() {
                       required
                       rows={3}
                       className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-[#FAC107] focus:outline-none transition-colors resize-none"
-                      placeholder="What ingredients and flavors would be in it?"
+                      placeholder="What ingredients and flavas would be in it?"
                     />
                   </div>
 

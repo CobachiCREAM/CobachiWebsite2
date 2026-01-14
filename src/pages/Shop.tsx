@@ -145,7 +145,7 @@ export default function Shop() {
       <div className="min-h-screen flex items-center justify-center bg-white dark:bg-gray-900 transition-colors duration-300">
         <div className="text-center">
           <div className="w-16 h-16 border-4 border-[#FAC107] border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
-          <p className="text-gray-600 dark:text-gray-300">Loading delicious flavors...</p>
+          <p className="text-gray-600 dark:text-gray-300">Loading delicious flavas...</p>
         </div>
       </div>
     );
@@ -185,15 +185,15 @@ export default function Shop() {
             <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold mb-4 text-black leading-tight">
               Explore Our
               <br />
-              <span className="text-white">Flavor Collection</span>
+              <span className="text-white">Flava Collection</span>
             </h1>
             <p className="text-lg sm:text-xl text-black mb-8 max-w-lg">
-              From classic favorites to bold cultural creations, every flavor tells a story. Fresh ingredients, rolled to perfection.
+              From classic favorites to bold cultural creations, every flava tells a story. Fresh ingredients, rolled to perfection.
             </p>
             <div className="flex flex-wrap gap-4">
               <div className="bg-black bg-opacity-20 backdrop-blur-sm px-4 py-3 rounded-lg">
                 <p className="text-2xl font-bold text-black">50+</p>
-                <p className="text-sm text-black">Unique Flavors</p>
+                <p className="text-sm text-black">Unique Flavas</p>
               </div>
               <div className="bg-black bg-opacity-20 backdrop-blur-sm px-4 py-3 rounded-lg">
                 <p className="text-2xl font-bold text-black">100%</p>
@@ -252,7 +252,7 @@ export default function Shop() {
                     : 'bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-600'
                 }`}
               >
-                All Flavors
+                All Flavas
               </button>
               {categories.map((category) => (
                 <button

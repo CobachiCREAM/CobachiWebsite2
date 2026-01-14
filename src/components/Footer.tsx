@@ -96,7 +96,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-4 text-[#FAC107]">Stay Connected</h3>
             <p className="text-gray-400 text-sm mb-4">
-              Get the latest flavors, events, and special offers.
+              Get the latest flavas, events, and special offers.
             </p>
             <form onSubmit={handleNewsletterSubmit} className="mb-4">
               <div className="flex">

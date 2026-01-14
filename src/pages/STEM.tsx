@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { supabase } from '../lib/supabase';
 import { STEMInquiry } from '../types';
-import { GraduationCap, Beaker, Lightbulb, Users, CheckCircle, BookOpen, Microscope, FlaskConical } from 'lucide-react';
+import { GraduationCap, Calculator, Lightbulb, Users, CheckCircle, BookOpen, Percent, PieChart } from 'lucide-react';
 import FAQ from '../components/FAQ';
 
 export default function STEM() {
@@ -60,7 +60,7 @@ export default function STEM() {
     },
     {
       question: "Is this aligned with educational standards?",
-      answer: "Yes! Our programs support Next Generation Science Standards (NGSS) and incorporate chemistry, physics, math, and entrepreneurship concepts. We can provide specific learning objectives upon request."
+      answer: "Yes! Our programs are aligned to Georgia Standards of Excellence and Common Core Math Standards, incorporating fractions, ratios, measurements, and entrepreneurship concepts. We can provide specific learning objectives upon request."
     },
     {
       question: "Do students get to eat what they make?",
@@ -86,7 +86,7 @@ export default function STEM() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <div className="relative h-[700px] overflow-hidden bg-gradient-to-br from-green-500 via-blue-500 to-purple-600">
+      <div className="relative h-[700px] overflow-hidden bg-gradient-to-br from-[#FAC107] via-yellow-500 to-orange-500">
         <div className="absolute inset-0">
           <img
             src="https://images.pexels.com/photos/8500567/pexels-photo-8500567.jpeg?auto=compress&cs=tinysrgb&w=1920"
@@ -105,13 +105,13 @@ export default function STEM() {
           <div className="max-w-4xl">
             <div className="grid grid-cols-4 gap-3 mb-6">
               <div className="bg-white/20 backdrop-blur-sm rounded-xl p-3 flex items-center justify-center border border-white/30 transform hover:scale-110 transition-transform">
-                <Beaker className="w-8 h-8 text-white" />
+                <Calculator className="w-8 h-8 text-white" />
               </div>
               <div className="bg-white/20 backdrop-blur-sm rounded-xl p-3 flex items-center justify-center border border-white/30 transform hover:scale-110 transition-transform" style={{ animationDelay: '0.1s' }}>
-                <FlaskConical className="w-8 h-8 text-white" />
+                <Percent className="w-8 h-8 text-white" />
               </div>
               <div className="bg-white/20 backdrop-blur-sm rounded-xl p-3 flex items-center justify-center border border-white/30 transform hover:scale-110 transition-transform" style={{ animationDelay: '0.2s' }}>
-                <Microscope className="w-8 h-8 text-white" />
+                <PieChart className="w-8 h-8 text-white" />
               </div>
               <div className="bg-white/20 backdrop-blur-sm rounded-xl p-3 flex items-center justify-center border border-white/30 transform hover:scale-110 transition-transform" style={{ animationDelay: '0.3s' }}>
                 <GraduationCap className="w-8 h-8 text-white" />
@@ -119,18 +119,18 @@ export default function STEM() {
             </div>
 
             <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white leading-tight">
-              Learn Science Through
+              Learn Math Through
               <br />
               <span className="text-[#FAC107]">Ice Cream</span>
             </h1>
 
             <p className="text-xl md:text-2xl text-white mb-8 max-w-2xl">
-              Hands-on STEM education that's actually delicious. From chemistry to entrepreneurship, we teach real-world skills through the art of making ice cream.
+              Hands-on STEM education that's actually delicious. From fractions to measurements, we teach real-world math skills through the art of making ice cream.
             </p>
 
             <div className="flex flex-wrap gap-4 mb-8">
               <div className="bg-white/90 backdrop-blur-sm rounded-2xl px-6 py-4 transform hover:scale-105 transition-transform">
-                <p className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-blue-600">500+</p>
+                <p className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-blue-600">100+</p>
                 <p className="text-sm text-gray-700 font-semibold">Students Taught</p>
               </div>
               <div className="bg-white/90 backdrop-blur-sm rounded-2xl px-6 py-4 transform hover:scale-105 transition-transform">
@@ -162,10 +162,10 @@ export default function STEM() {
             <h2 className="text-4xl font-bold mb-6">Born from STEM, Built for Education</h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
               Cobachi C.R.E.A.M. started as a student project in a STEM class. Today, we bring that same educational
-              spirit to schools across Georgia, teaching students about science through the delicious art of ice cream making.
+              spirit to schools across Georgia, teaching students about math through the delicious art of ice cream making.
             </p>
             <div className="bg-gradient-to-r from-[#FAC107] to-yellow-400 rounded-xl p-6">
-              <h3 className="text-2xl font-bold mb-2">Over 500 Students Taught</h3>
+              <h3 className="text-2xl font-bold mb-2">Over 100 Students Taught</h3>
               <p className="text-gray-900">
                 We've inspired hundreds of students across elementary, middle, and high schools throughout Georgia.
               </p>
@@ -218,7 +218,7 @@ export default function STEM() {
               <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-70"></div>
               <div className="absolute bottom-0 left-0 right-0 p-6">
                 <h3 className="text-xl font-bold text-white">Fun & Educational</h3>
-                <p className="text-white text-sm">Learning science has never been so delicious</p>
+                <p className="text-white text-sm">Learning math has never been so delicious</p>
               </div>
             </div>
           </div>
@@ -226,24 +226,24 @@ export default function STEM() {
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-16">
           <div className="bg-white rounded-2xl p-6 text-center shadow-lg">
-            <Beaker className="w-12 h-12 text-[#FAC107] mx-auto mb-4" />
-            <h3 className="font-bold text-lg mb-2">States of Matter</h3>
-            <p className="text-sm text-gray-600">Observe liquid-to-solid transitions in real-time</p>
+            <Calculator className="w-12 h-12 text-[#FAC107] mx-auto mb-4" />
+            <h3 className="font-bold text-lg mb-2 break-words">Fractions & Ratios</h3>
+            <p className="text-sm text-gray-600">Calculate perfect ingredient proportions</p>
           </div>
           <div className="bg-white rounded-2xl p-6 text-center shadow-lg">
-            <FlaskConical className="w-12 h-12 text-[#FAC107] mx-auto mb-4" />
-            <h3 className="font-bold text-lg mb-2">Chemical Reactions</h3>
-            <p className="text-sm text-gray-600">Learn about temperature and freezing points</p>
+            <Percent className="w-12 h-12 text-[#FAC107] mx-auto mb-4" />
+            <h3 className="font-bold text-lg mb-2 break-words">Measurements</h3>
+            <p className="text-sm text-gray-600">Precise measuring and unit conversions</p>
           </div>
           <div className="bg-white rounded-2xl p-6 text-center shadow-lg">
-            <Microscope className="w-12 h-12 text-[#FAC107] mx-auto mb-4" />
-            <h3 className="font-bold text-lg mb-2">Scientific Method</h3>
-            <p className="text-sm text-gray-600">Experiment with flavors and ingredients</p>
+            <PieChart className="w-12 h-12 text-[#FAC107] mx-auto mb-4" />
+            <h3 className="font-bold text-lg mb-2 break-words">Data & Analysis</h3>
+            <p className="text-sm text-gray-600">Track results and solve problems</p>
           </div>
           <div className="bg-white rounded-2xl p-6 text-center shadow-lg">
             <Lightbulb className="w-12 h-12 text-[#FAC107] mx-auto mb-4" />
-            <h3 className="font-bold text-base sm:text-lg mb-2 break-words">Entrepreneurship</h3>
-            <p className="text-sm text-gray-600">Learn how STEM leads to business opportunities</p>
+            <h3 className="font-bold text-lg mb-2 break-words">Entrepreneurship</h3>
+            <p className="text-sm text-gray-600">Apply math to real business opportunities</p>
           </div>
         </div>
 
@@ -254,29 +254,29 @@ export default function STEM() {
               <div className="flex items-start space-x-3">
                 <CheckCircle className="w-6 h-6 text-[#FAC107] flex-shrink-0 mt-1" />
                 <div>
-                  <h4 className="font-bold mb-1">Physics & Chemistry</h4>
-                  <p className="text-sm text-gray-300">Temperature, phase changes, and molecular structure</p>
+                  <h4 className="font-bold mb-1">Fractions & Ratios</h4>
+                  <p className="text-sm text-gray-300">Calculate ingredient ratios and scale recipes</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
                 <CheckCircle className="w-6 h-6 text-[#FAC107] flex-shrink-0 mt-1" />
                 <div>
-                  <h4 className="font-bold mb-1">Math & Measurements</h4>
-                  <p className="text-sm text-gray-300">Ratios, proportions, and precise measurements</p>
+                  <h4 className="font-bold mb-1">Measurements & Units</h4>
+                  <p className="text-sm text-gray-300">Precise measuring, conversions, and estimation</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
                 <CheckCircle className="w-6 h-6 text-[#FAC107] flex-shrink-0 mt-1" />
                 <div>
-                  <h4 className="font-bold mb-1">Cultural Education</h4>
-                  <p className="text-sm text-gray-300">Exploring flavors from around the world</p>
+                  <h4 className="font-bold mb-1">Problem Solving</h4>
+                  <p className="text-sm text-gray-300">Apply math to real-world ice cream challenges</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
                 <CheckCircle className="w-6 h-6 text-[#FAC107] flex-shrink-0 mt-1" />
                 <div>
-                  <h4 className="font-bold mb-1">Business Skills</h4>
-                  <p className="text-sm text-gray-300">From concept to customer satisfaction</p>
+                  <h4 className="font-bold mb-1">Business Math</h4>
+                  <p className="text-sm text-gray-300">Pricing, budgets, and profit calculations</p>
                 </div>
               </div>
             </div>
@@ -293,16 +293,16 @@ export default function STEM() {
                   <h3 className="font-bold text-xl">Elementary School (K-5)</h3>
                 </div>
                 <p className="text-gray-600">
-                  Introduction to basic science concepts through ice cream. Focus on observation, measurement, and following directions.
+                  Introduction to basic math concepts through ice cream. Focus on counting, measuring, and simple fractions.
                 </p>
               </div>
               <div className="bg-white rounded-xl p-6 shadow-lg">
                 <div className="flex items-center space-x-3 mb-3">
-                  <Beaker className="w-6 h-6 text-[#FAC107]" />
+                  <Calculator className="w-6 h-6 text-[#FAC107]" />
                   <h3 className="font-bold text-xl">Middle School (6-8)</h3>
                 </div>
                 <p className="text-gray-600">
-                  Deeper dive into chemistry and physics. Students conduct experiments and document findings scientifically.
+                  Deeper dive into ratios, proportions, and unit conversions. Students calculate recipes and scale ingredients.
                 </p>
               </div>
               <div className="bg-white rounded-xl p-6 shadow-lg">
@@ -311,7 +311,7 @@ export default function STEM() {
                   <h3 className="font-bold text-xl">High School (9-12)</h3>
                 </div>
                 <p className="text-gray-600">
-                  Advanced concepts including food science, entrepreneurship, and the business of STEM innovation.
+                  Advanced concepts including percentages, cost analysis, profit margins, and business math applications.
                 </p>
               </div>
             </div>
@@ -461,7 +461,7 @@ export default function STEM() {
                 <span className="text-xl sm:text-2xl">⭐⭐⭐⭐⭐</span>
               </div>
               <p className="text-gray-700 italic mb-3">
-                "My students were completely engaged! They learned about science AND got to eat their experiment."
+                "My students were completely engaged! They learned about fractions AND got to eat their experiment."
               </p>
               <p className="font-bold text-sm">- Mrs. Johnson, 5th Grade</p>
             </div>
@@ -470,9 +470,9 @@ export default function STEM() {
                 <span className="text-xl sm:text-2xl">⭐⭐⭐⭐⭐</span>
               </div>
               <p className="text-gray-700 italic mb-3">
-                "This brought our chemistry unit to life. The cultural component was an unexpected bonus!"
+                "This brought our math unit to life. Students finally understood real-world applications!"
               </p>
-              <p className="font-bold text-sm">- Mr. Davis, Science Teacher</p>
+              <p className="font-bold text-sm">- Mr. Davis, Math Teacher</p>
             </div>
             <div className="bg-white rounded-xl p-6">
               <div className="flex justify-center items-center mb-3">

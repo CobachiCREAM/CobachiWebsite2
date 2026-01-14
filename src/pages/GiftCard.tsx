@@ -26,7 +26,7 @@ export default function GiftCard() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-pink-50 via-white to-yellow-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 transition-colors duration-300">
-      <div className="relative h-[600px] overflow-hidden bg-gradient-to-br from-rose-400 via-pink-400 to-[#FAC107]">
+      <div className="relative h-[600px] overflow-hidden bg-gradient-to-br from-[#FAC107] via-yellow-400 to-orange-500">
         <div className="absolute inset-0 opacity-30">
           <div className="absolute top-10 left-10 w-32 h-32 bg-white rounded-full blur-3xl animate-pulse"></div>
           <div className="absolute bottom-10 right-10 w-40 h-40 bg-yellow-200 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
@@ -61,10 +61,6 @@ export default function GiftCard() {
                   <div className="bg-white/30 backdrop-blur-sm rounded-xl px-5 py-3 border border-white/40">
                     <p className="text-2xl font-bold text-white">No Expiry</p>
                     <p className="text-sm text-white/90">Use Anytime</p>
-                  </div>
-                  <div className="bg-white/30 backdrop-blur-sm rounded-xl px-5 py-3 border border-white/40">
-                    <p className="text-2xl font-bold text-white">2 Locations</p>
-                    <p className="text-sm text-white/90">Redeemable</p>
                   </div>
                 </div>
 
@@ -254,7 +250,7 @@ export default function GiftCard() {
                       <div className="w-6 h-6 bg-[#FAC107] rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
                         <span className="text-black text-sm font-bold">✓</span>
                       </div>
-                      <span>Valid at all locations</span>
+                      <span>Valid at all pick up locations</span>
                     </li>
                     <li className="flex items-start space-x-3">
                       <div className="w-6 h-6 bg-[#FAC107] rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">

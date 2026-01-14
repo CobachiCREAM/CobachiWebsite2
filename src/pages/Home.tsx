@@ -18,7 +18,7 @@ const heroImages = [
   },
   {
     url: 'https://images.pexels.com/photos/1625372/pexels-photo-1625372.jpeg?auto=compress&cs=tinysrgb&w=1920',
-    alt: 'Delicious rolled ice cream'
+    alt: 'Delicious ice cream'
   },
   {
     url: 'https://images.pexels.com/photos/1352278/pexels-photo-1352278.jpeg?auto=compress&cs=tinysrgb&w=1920',
@@ -125,7 +125,7 @@ export default function Home() {
                   Where Culture Meets <span className="text-[#FAC107]">C.R.E.A.M.</span>
                 </h1>
                 <p className="text-base sm:text-xl md:text-2xl text-gray-200 mb-6 sm:mb-8 leading-relaxed px-4">
-                  Experience rolled ice cream like never before. Handcrafted flavors inspired by our culture,
+                  Experience ice cream like never before. Handcrafted flavas inspired by our culture,
                   served with purpose, and made to create unforgettable moments.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-4">
@@ -200,7 +200,7 @@ export default function Home() {
               Give the Gift of <span className="text-black">C.R.E.A.M.</span>
             </h2>
             <p className="text-black mb-6 max-w-2xl mx-auto">
-              Share the joy of handcrafted rolled ice cream with your loved ones. Perfect for any occasion!
+              Share the joy of handcrafted ice cream with your loved ones. Perfect for any occasion!
             </p>
             <Link
               to="/gift-card"
@@ -229,7 +229,7 @@ export default function Home() {
                 <Heart className="w-8 h-8 text-black" />
               </div>
               <h3 className="font-bold text-xl mb-2 dark:text-white">Culturally Inspired</h3>
-              <p className="text-gray-600 dark:text-gray-300">Flavors that celebrate our heritage</p>
+              <p className="text-gray-600 dark:text-gray-300">Flavas that celebrate our rich heritage</p>
             </div>
             <div className="p-6">
               <div className="w-16 h-16 bg-[#FAC107] rounded-full flex items-center justify-center mx-auto mb-4">
@@ -243,7 +243,7 @@ export default function Home() {
                 <GraduationCap className="w-8 h-8 text-black" />
               </div>
               <h3 className="font-bold text-xl mb-2 dark:text-white">STEM Education</h3>
-              <p className="text-gray-600 dark:text-gray-300">Teaching through delicious science</p>
+              <p className="text-gray-600 dark:text-gray-300">Teaching through delicious experiences</p>
             </div>
           </div>
         </div>
@@ -253,7 +253,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 dark:text-white">Best Sellers</h2>
-            <p className="text-xl text-gray-600 dark:text-gray-300">Our customers' favorite flavors</p>
+            <p className="text-xl text-gray-600 dark:text-gray-300">Our customers' favorite flavas</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {bestsellers.map((product) => (
@@ -294,7 +294,7 @@ export default function Home() {
               to="/shop"
               className="inline-flex items-center space-x-2 bg-black text-white px-8 py-4 rounded-full font-bold hover:bg-gray-900 transition-colors"
             >
-              <span>Shop All Flavors</span>
+              <span>Shop All Flavas</span>
               <ArrowRight className="w-5 h-5" />
             </Link>
           </div>
@@ -307,14 +307,14 @@ export default function Home() {
             <h2 className="text-4xl md:text-5xl font-bold mb-4 dark:text-white">
               Experience the <span className="text-[#FAC107]">C.R.E.A.M.</span> Difference
             </h2>
-            <p className="text-xl text-gray-600 dark:text-gray-300">Handcrafted rolled ice cream made fresh before your eyes</p>
+            <p className="text-xl text-gray-600 dark:text-gray-300">Handcrafted ice cream made fresh before your eyes</p>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
             <div className="relative rounded-2xl overflow-hidden shadow-xl group h-[300px]">
               <img
                 src="https://images.pexels.com/photos/1343504/pexels-photo-1343504.jpeg?auto=compress&cs=tinysrgb&w=1200"
-                alt="Rolled ice cream being prepared"
+                alt="Ice cream being prepared"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-70"></div>
@@ -327,12 +327,12 @@ export default function Home() {
             <div className="relative rounded-2xl overflow-hidden shadow-xl group h-[300px]">
               <img
                 src="https://images.pexels.com/photos/1362534/pexels-photo-1362534.jpeg?auto=compress&cs=tinysrgb&w=1200"
-                alt="Variety of ice cream flavors"
+                alt="Variety of ice cream flavas"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-70"></div>
               <div className="absolute bottom-0 left-0 right-0 p-6">
-                <h3 className="text-2xl font-bold text-white mb-2">Endless Flavor Combinations</h3>
+                <h3 className="text-2xl font-bold text-white mb-2">Endless Flava Combinations</h3>
                 <p className="text-white">From traditional favorites to bold cultural creations</p>
               </div>
             </div>
@@ -399,7 +399,7 @@ export default function Home() {
                     <Award className="w-6 h-6 flex-shrink-0 mt-1" />
                     <div>
                       <h4 className="font-bold">Cultural Excellence</h4>
-                      <p className="text-sm">Celebrating our heritage through every flavor</p>
+                      <p className="text-sm">Celebrating our heritage through every flava</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
@@ -448,13 +448,13 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="flavors" className="py-16 bg-black text-white">
+      <section id="flavas" className="py-16 bg-black text-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
               Flavas Inspired by <span className="text-[#FAC107]">Culture</span>
             </h2>
-            <p className="text-xl text-gray-300">Each flavor tells a story</p>
+            <p className="text-xl text-gray-300">Each flava tells a story</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {featuredProducts.slice(0, 6).map((product) => (
@@ -571,7 +571,7 @@ export default function Home() {
               </div>
               <div className="bg-gray-800 rounded-xl p-6">
                 <Users className="w-12 h-12 text-[#FAC107] mx-auto mb-4" />
-                <h3 className="font-bold text-lg mb-2">Custom Flavors</h3>
+                <h3 className="font-bold text-lg mb-2">Custom Flavas</h3>
                 <p className="text-sm text-gray-400">Tailored to your event theme</p>
               </div>
               <div className="bg-gray-800 rounded-xl p-6">
@@ -610,7 +610,7 @@ export default function Home() {
             </h2>
 
             <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 mb-8 max-w-2xl mx-auto">
-              See our latest flavors, behind-the-scenes action, customer creations, and community events. Join our growing family!
+              See our latest flavas, behind-the-scenes action, customer creations, and community events. Join our growing family!
             </p>
 
             <a

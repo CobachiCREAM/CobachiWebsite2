@@ -6,45 +6,46 @@ export default function About() {
   const [openFAQ, setOpenFAQ] = useState<number | null>(null);
 
   const milestones = [
-    { year: '2020', event: 'Born from a STEM class project', icon: GraduationCap },
-    { year: '2021', event: 'First location opened in Atlanta', icon: Sparkles },
-    { year: '2022', event: 'Launched STEM education program', icon: Users },
-    { year: '2023', event: 'Expanded to Buford location', icon: TrendingUp },
-    { year: '2024', event: '500+ students taught, 50+ events catered', icon: Award },
+    { year: '2021', event: 'Born from a STEM class project', icon: GraduationCap },
+    { year: '2022', event: 'Started attending festivals and pop up events', icon: Calendar },
+    { year: '2023', event: 'Launched our catering services', icon: Users },
+    { year: '2024', event: 'Won pitch competition with NMSDC', icon: Award },
+    { year: '2025', event: 'Launched our Freezer and Wholesale program', icon: TrendingUp },
+    { year: '2026', event: 'Brick and Mortar coming soon', icon: Sparkles },
   ];
 
   const faqs = [
     {
       question: 'What makes Cobachi C.R.E.A.M. different from regular ice cream?',
-      answer: 'We use the Thai rolled ice cream technique where fresh ingredients are mixed and frozen on a -20°F cold plate right before your eyes. This creates a smoother texture and allows for creative, customizable combinations that celebrate cultural flavors.'
+      answer: 'We use the Thai ice cream technique where fresh ingredients are mixed and frozen on a -20°F cold plate right before your eyes. This creates a smoother texture and allows for creative, customizable combinations that celebrate cultural flavas.'
     },
     {
       question: 'Do you offer vegan or dairy-free options?',
-      answer: 'Yes! We offer several vegan options made with coconut milk and other plant-based ingredients. Just ask our staff about current vegan flavors available.'
+      answer: 'Yes! We offer several vegan options made with coconut milk and other plant-based ingredients. Just ask our staff about current vegan flavas available.'
     },
     {
       question: 'Can I book Cobachi for a private event?',
-      answer: 'Absolutely! We specialize in catering for weddings, corporate events, school functions, and private parties. Visit our Catering page to submit a request, and we\'ll get back to you within 24 hours with pricing and availability.'
+      answer: 'Absolutely! We specialize in catering for weddings, corporate events, school functions, and private parties. Visit our Catering page to submit a request, and we\'ll get back to you within 48 hours with pricing and availability.'
     },
     {
       question: 'What is the STEM education program?',
       answer: 'Our STEM program teaches students about science, technology, engineering, and math through the fun lens of ice cream making. Students learn about states of matter, temperature, food science, and entrepreneurship. We offer both in-school programs and field trips to our locations.'
     },
     {
-      question: 'How long does rolled ice cream take to make?',
+      question: 'How long does ice cream take to make?',
       answer: 'Each order takes about 3-5 minutes to prepare. We make every order fresh, so you can watch the entire process from start to finish!'
     },
     {
       question: 'Can I order online for pickup or delivery?',
-      answer: 'Yes! Visit our Shop page to browse products and place orders. We offer both pickup and shipping options for select items.'
+      answer: 'Yes! Visit our Shop page to browse products and place orders. We offer local delivery, pickup, and shipping options for select items.'
     },
     {
-      question: 'What are your most popular flavors?',
-      answer: 'Our bestsellers include Tres Leches, Mango Chamoy, Cookies & Cream, and Strawberry Cheesecake. We also rotate seasonal and specialty flavors inspired by various cultural traditions.'
+      question: 'What are your most popular flavas?',
+      answer: 'Our bestsellers include Like Mike, The Minaj, Gold Digger, and Twisted Savage Crunch. We also rotate seasonal and specialty flavas inspired by various cultural traditions.'
     },
     {
       question: 'Do you have gift cards available?',
-      answer: 'Yes! Gift cards are available for purchase at both our Atlanta and Buford locations, making them perfect gifts for ice cream lovers.'
+      answer: 'Yes! Gift cards are available for purchase on our website, making them perfect gifts for ice cream lovers.'
     }
   ];
 
@@ -52,12 +53,12 @@ export default function About() {
     {
       icon: Heart,
       title: 'Culture',
-      description: 'Every flavor celebrates our heritage and tells a story rooted in tradition and community.'
+      description: 'Every flava celebrates our heritage and tells a story rooted in tradition and community.'
     },
     {
       icon: Sparkles,
       title: 'Creativity',
-      description: 'We push boundaries with innovative flavors and presentations that surprise and delight.'
+      description: 'We push boundaries with innovative flavas and presentations that surprise and delight.'
     },
     {
       icon: Users,
@@ -109,11 +110,11 @@ export default function About() {
 
               <div className="flex flex-wrap gap-3">
                 <div className="bg-black/20 backdrop-blur-sm rounded-xl px-5 py-3 border border-black/20">
-                  <p className="text-2xl font-bold text-black">2020</p>
+                  <p className="text-2xl font-bold text-black">2021</p>
                   <p className="text-sm text-black">Founded</p>
                 </div>
                 <div className="bg-black/20 backdrop-blur-sm rounded-xl px-5 py-3 border border-black/20">
-                  <p className="text-2xl font-bold text-black">500+</p>
+                  <p className="text-2xl font-bold text-black">100+</p>
                   <p className="text-sm text-black">Students</p>
                 </div>
                 <div className="bg-black/20 backdrop-blur-sm rounded-xl px-5 py-3 border border-black/20">
@@ -170,8 +171,8 @@ export default function About() {
                 </p>
                 <p>
                   What began as an experiment in understanding states of matter and chemical reactions through ice cream
-                  making became something much bigger. The rolled ice cream technique fascinated students and teachers
-                  alike, and the cultural flavors we created resonated deeply with our community.
+                  making became something much bigger. The ice cream technique fascinated students and teachers
+                  alike, and the cultural flavas we created resonated deeply with our community.
                 </p>
                 <p>
                   We realized we had created more than just a product — we had created an experience that brought people
@@ -180,7 +181,7 @@ export default function About() {
                 </p>
                 <p>
                   Today, we're proud to serve our community from two locations while staying true to our educational roots.
-                  Every rolled ice cream we create, every catering event we host, and every STEM class we teach carries
+                  Every ice cream we create, every catering event we host, and every STEM class we teach carries
                   forward that original mission: to inspire, educate, and celebrate culture through the universal language
                   of delicious food.
                 </p>
@@ -190,7 +191,7 @@ export default function About() {
               <div className="relative rounded-2xl overflow-hidden shadow-2xl flex-shrink-0">
                 <img
                   src="/3b3012e4-1469-4f71-9829-b46807e2a436_1_201_a.jpeg"
-                  alt="CEO preparing rolled ice cream"
+                  alt="CEO preparing ice cream"
                   className="w-72 h-72 object-cover"
                 />
               </div>
@@ -198,7 +199,7 @@ export default function About() {
                 <h3 className="text-3xl font-bold mb-3">Meet Our Founder</h3>
                 <p className="text-2xl font-bold mb-3">Patty Jackson</p>
                 <p className="text-lg text-gray-900">
-                  Passionate about education, entrepreneurship, and creating experiences that bring communities together through the art of rolled ice cream.
+                  Passionate about education, entrepreneurship, and creating experiences that bring communities together through the art of ice cream.
                 </p>
               </div>
             </div>
@@ -244,7 +245,7 @@ export default function About() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
           <div className="bg-[#FAC107] rounded-2xl p-8 text-center">
-            <p className="text-5xl font-bold mb-2">500+</p>
+            <p className="text-5xl font-bold mb-2">100+</p>
             <p className="text-lg font-semibold">Students Educated</p>
           </div>
           <div className="bg-black text-white rounded-2xl p-8 text-center">
@@ -269,7 +270,7 @@ export default function About() {
               to="/shop"
               className="bg-[#FAC107] text-black px-8 py-4 rounded-full font-bold hover:bg-yellow-400 transition-colors"
             >
-              Shop Our Flavors
+              Shop Our Flavas
             </Link>
             <Link
               to="/stem"

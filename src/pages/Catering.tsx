@@ -64,7 +64,7 @@ export default function Catering() {
     },
     {
       question: "What is included in your catering service?",
-      answer: "Our catering service includes live ice cream rolling entertainment, all equipment and supplies, professional staff, custom flavor options, premium toppings bar, and full setup/cleanup. We bring everything needed to create a memorable experience for your guests."
+      answer: "Our catering service includes live ice cream rolling entertainment, all equipment and supplies, professional staff, custom flava options, premium toppings bar, and full setup/cleanup. We bring everything needed to create a memorable experience for your guests."
     },
     {
       question: "Do you accommodate dietary restrictions and allergies?",
@@ -87,8 +87,8 @@ export default function Catering() {
       answer: "Cancellations made 14+ days before the event receive a full refund. Cancellations within 14 days may be subject to fees. We understand that plans change and will work with you to find a solution, including rescheduling when possible."
     },
     {
-      question: "Can we customize flavors to match our event theme?",
-      answer: "Yes! Custom flavor creation is one of our specialties. Whether you want flavors that match your brand colors, wedding theme, or specific preferences, we'll work with you to create unique combinations that wow your guests."
+      question: "Can we customize flavas to match our event theme?",
+      answer: "Yes! Custom flava creation is one of our specialties. Whether you want flavas that match your brand colors, wedding theme, or specific preferences, we'll work with you to create unique combinations that wow your guests."
     }
   ];
 
@@ -123,7 +123,7 @@ export default function Catering() {
               </h1>
 
               <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl">
-                Live ice cream rolling entertainment, custom flavors tailored to your theme, and full-service setup. From corporate events to weddings, we bring the experience to you.
+                Live ice cream rolling entertainment, custom flavas tailored to your theme, and full-service setup. From corporate events to weddings, we bring the experience to you.
               </p>
 
               <div className="grid grid-cols-3 gap-4 mb-8">
@@ -135,7 +135,7 @@ export default function Catering() {
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-center border border-white/20">
                   <Award className="w-8 h-8 text-[#FAC107] mx-auto mb-2" />
                   <p className="text-2xl font-bold text-white">Custom</p>
-                  <p className="text-xs text-gray-300">Flavors</p>
+                  <p className="text-xs text-gray-300">Flavas</p>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-center border border-white/20">
                   <Users className="w-8 h-8 text-[#FAC107] mx-auto mb-2" />
@@ -173,9 +173,9 @@ export default function Catering() {
             <div className="w-16 h-16 bg-[#FAC107] rounded-full flex items-center justify-center mx-auto mb-4">
               <Award className="w-8 h-8 text-black" />
             </div>
-            <h3 className="text-xl font-bold mb-3">Custom Flavors</h3>
+            <h3 className="text-xl font-bold mb-3">Custom Flavas</h3>
             <p className="text-gray-600">
-              Work with us to create custom flavors that match your event theme or brand colors.
+              Work with us to create custom flavas that match your event theme or brand colors.
             </p>
           </div>
           <div className="bg-white rounded-2xl p-8 text-center shadow-lg">
@@ -343,7 +343,7 @@ export default function Catering() {
               <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-70"></div>
               <div className="absolute bottom-0 left-0 right-0 p-8">
                 <h3 className="text-2xl font-bold text-white mb-2">Weddings & Celebrations</h3>
-                <p className="text-white text-lg">Make your special day even sweeter with live rolled ice cream</p>
+                <p className="text-white text-lg">Make your special day even sweeter with live ice cream</p>
               </div>
             </div>
 

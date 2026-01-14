@@ -92,7 +92,7 @@ export default function Contact() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <div className="relative h-[600px] overflow-hidden bg-gradient-to-br from-pink-500 via-[#FAC107] to-orange-400">
+      <div className="relative h-[600px] overflow-hidden bg-gradient-to-br from-[#FAC107] via-yellow-400 to-orange-400">
         <div className="absolute inset-0 opacity-30">
           <div className="absolute top-20 right-20 w-40 h-40 bg-white rounded-full blur-3xl animate-pulse"></div>
           <div className="absolute bottom-32 left-32 w-48 h-48 bg-black rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
@@ -115,7 +115,7 @@ export default function Contact() {
             </h1>
 
             <p className="text-xl md:text-2xl text-white mb-10 max-w-2xl mx-auto">
-              Questions about our flavors, catering, or STEM programs? We're here to help. Reach out and let's make something sweet happen!
+              Questions about our flavas, catering, or STEM programs? We're here to help. Reach out and let's make something sweet happen!
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
@@ -123,8 +123,8 @@ export default function Contact() {
                 <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center mx-auto mb-4">
                   <Phone className="w-6 h-6 text-[#FAC107]" />
                 </div>
-                <h3 className="font-bold text-white mb-2">Call Us</h3>
-                <p className="text-sm text-white/80">Atlanta & Buford</p>
+                <h3 className="font-bold text-white mb-2">Text Us</h3>
+                <p className="text-sm text-white/80">24hr Response Time</p>
               </div>
 
               <div className="bg-white/20 backdrop-blur-md rounded-2xl p-6 border border-white/30 hover:bg-white/30 transition-all transform hover:scale-105">
@@ -132,7 +132,7 @@ export default function Contact() {
                   <Mail className="w-6 h-6 text-[#FAC107]" />
                 </div>
                 <h3 className="font-bold text-white mb-2">Email Us</h3>
-                <p className="text-sm text-white/80">24hr Response Time</p>
+                <p className="text-sm text-white/80">48hr Response Time</p>
               </div>
 
               <div className="bg-white/20 backdrop-blur-md rounded-2xl p-6 border border-white/30 hover:bg-white/30 transition-all transform hover:scale-105">
@@ -140,7 +140,7 @@ export default function Contact() {
                   <MapPin className="w-6 h-6 text-[#FAC107]" />
                 </div>
                 <h3 className="font-bold text-white mb-2">Visit Us</h3>
-                <p className="text-sm text-white/80">2 Locations</p>
+                <p className="text-sm text-white/80">3 Locations</p>
               </div>
             </div>
 
@@ -165,14 +165,9 @@ export default function Contact() {
             <div className="w-16 h-16 bg-[#FAC107] rounded-full flex items-center justify-center mx-auto mb-4">
               <Phone className="w-8 h-8 text-black" />
             </div>
-            <h3 className="text-xl font-bold mb-3">Call Us</h3>
-            <p className="text-gray-600 mb-2">Atlanta</p>
-            <a href="tel:4045551234" className="text-lg font-semibold hover:text-[#FAC107]">
-              (404) 555-1234
-            </a>
-            <p className="text-gray-600 mt-3 mb-2">Buford</p>
-            <a href="tel:7705555678" className="text-lg font-semibold hover:text-[#FAC107]">
-              (770) 555-5678
+            <h3 className="text-xl font-bold mb-3">Text Us</h3>
+            <a href="tel:6784214577" className="text-lg font-semibold hover:text-[#FAC107]">
+              (678) 421-4577
             </a>
           </div>
 
@@ -181,10 +176,10 @@ export default function Contact() {
               <Mail className="w-8 h-8 text-black" />
             </div>
             <h3 className="text-xl font-bold mb-3">Email Us</h3>
-            <a href="mailto:hello@cobachicream.com" className="text-lg font-semibold hover:text-[#FAC107] block mb-2">
-              hello@cobachicream.com
+            <a href="mailto:info@cobachicream.com" className="text-lg font-semibold hover:text-[#FAC107] block mb-2">
+              info@cobachicream.com
             </a>
-            <p className="text-sm text-gray-600">We respond within 24 hours</p>
+            <p className="text-sm text-gray-600">We respond within 48 hours</p>
           </div>
 
           <div className="bg-white rounded-2xl p-8 text-center shadow-lg">
@@ -192,7 +187,7 @@ export default function Contact() {
               <MapPin className="w-8 h-8 text-black" />
             </div>
             <h3 className="text-xl font-bold mb-3">Visit Us</h3>
-            <p className="text-gray-600 mb-2">2 Locations</p>
+            <p className="text-gray-600 mb-2">3 Locations</p>
             <Link to="/locations" className="text-lg font-semibold hover:text-[#FAC107]">
               See Where to Find Us
             </Link>
@@ -210,7 +205,7 @@ export default function Contact() {
               <div className="flex-1 text-center md:text-left">
                 <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">Join Our Team!</h2>
                 <p className="text-gray-300">
-                  Looking for passionate people to help us bring culture & flavor to communities. Submit your info below!
+                  Looking for passionate people to help us bring culture & flava to communities. Submit your info below!
                 </p>
               </div>
             </div>

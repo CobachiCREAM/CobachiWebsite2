@@ -149,10 +149,10 @@ export default function Locations() {
       <div className="container mx-auto px-4 py-16">
         <div className="bg-gradient-to-br from-[#FAC107] to-yellow-400 rounded-2xl p-8 md:p-12 mb-16">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Mobile Business, Maximum Flavor</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">Mobile Business, Maximum Flava</h2>
             <p className="text-lg mb-8">
               We're currently a mobile-only business, but you can find our incredible ice cream and treats at select local restaurants.
-              We're also expanding to coffee shops and cafes throughout the Atlanta area soon!
+              We're expanding throughout the Atlanta metro area!
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
               <Link
@@ -161,8 +161,9 @@ export default function Locations() {
               >
                 <MapPin className="w-12 h-12 mx-auto mb-4" />
                 <h3 className="font-bold text-xl mb-2">Atlanta Location</h3>
-                <p className="text-sm">123 Peachtree Street</p>
-                <p className="text-sm">Atlanta, GA 30303</p>
+                <p className="text-sm font-semibold mb-2">RICE (Russell Innovation Center for Entrepreneurs)</p>
+                <p className="text-sm">504 Fair St SW</p>
+                <p className="text-sm">Atlanta, GA 30313</p>
                 <p className="text-sm font-semibold mt-3 underline">Shop Atlanta Products</p>
               </Link>
               <Link
@@ -171,8 +172,9 @@ export default function Locations() {
               >
                 <MapPin className="w-12 h-12 mx-auto mb-4" />
                 <h3 className="font-bold text-xl mb-2">Buford Location</h3>
-                <p className="text-sm">456 Buford Highway</p>
-                <p className="text-sm">Buford, GA 30518</p>
+                <p className="text-sm font-semibold mb-2">Touch of Flavor</p>
+                <p className="text-sm">2625 Mall of Georgia Blvd</p>
+                <p className="text-sm">Buford, GA 30519</p>
                 <p className="text-sm font-semibold mt-3 underline">Shop Buford Products</p>
               </Link>
             </div>
@@ -392,8 +394,9 @@ export default function Locations() {
             <div>
               <h3 className="font-bold text-lg mb-2">Are you opening a physical location?</h3>
               <p className="text-gray-600">
-                We're focusing on partnering with existing restaurants, coffee shops, and cafes to bring our
-                products to multiple locations throughout Atlanta. This allows us to serve more communities!
+                Yes! We're opening a physical location very soon! Stay tuned for updates. In the meantime,
+                we're partnering with existing restaurants, coffee shops, and cafes to bring our
+                products to multiple locations throughout Atlanta.
               </p>
             </div>
             <div>
